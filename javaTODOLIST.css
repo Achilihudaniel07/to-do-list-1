@@ -1,0 +1,110 @@
+.weekday{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+    background-color: rgb(216, 191, 191)
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 
+    -1px -1px 0 firebrick,
+    -2px -2px 0 firebrick,
+    -3px -3px 0 firebrick,
+    -4px -4px 0 firebrick,
+    -5px -5px 0 firebrick, 
+    -6px -6px 0 firebrick,
+    -7px -7px 0 firebrick,
+    -8px -8px 0 firebrick,
+    -10px -20px 30px firebrick;
+} 
+
+#userinput0{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    height: 5vh;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+input{
+    font-size: 1.5rem;
+    
+}
+
+li{
+    font-size: 1.3rem;
+}
+
+
+#mon h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: red;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#tue h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color:white;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#wed h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color:purple;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#thu h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color:chartreuse;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#fri h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color:blue;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+#wee h2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    background-color: gold;
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 100%;
+    text-align: center;
+}
+
+hr{
+    width: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
