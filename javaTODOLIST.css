@@ -39,8 +39,27 @@ input{
 
 li{
     font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.4s;
+    position: relative;
+
 }
 
+li:hover{
+    background: rgb(255, 255, 255);
+    transition: .10s ease-out;
+    transform: rotateZ(0);
+    border-radius: 2rem;
+}
+
+ul li.cancel{
+    text-decoration: line-through;
+
+}
+
+ul li.delete{
+    display: none;
+}
 
 #mon h2{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
